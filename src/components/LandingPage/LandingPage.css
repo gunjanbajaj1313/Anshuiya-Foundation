@@ -1,0 +1,90 @@
+.landing-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    min-height: 90vh;
+    background-color: rgb(237, 243, 245);
+  }
+  .landing-left{
+    margin-left: 10%;
+
+  }
+
+  .heading-1
+{
+    font-size: 7rem;
+    margin: 0px;
+    margin-top: 25%;
+    margin-left: 30px;
+    font-weight: 700;
+  }
+  
+  .heading-2 {
+    color: #212529;
+    font-size: 5.5rem;
+
+
+  }
+
+  .para {
+    color: grey;
+    font-size: 1.4rem;
+  }
+  .landing-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    position: relative;
+  }
+  .banner{
+    height: 800px;
+  }
+  .element1{
+    position: relative;
+    bottom: 460px;
+    left: 560px;
+  }
+  .element3{
+    position: relative;
+    bottom: 300px;
+    left: 470px;
+  }
+  .element2{
+    position: relative;
+    bottom: 600px;
+    left:800px;
+
+  }
+  @media only screen and (max-width: 600px) {
+    .landing-wrapper{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      margin: auto;
+    }
+     .landing-right{
+      display: none;
+     }
+     .landing-left{
+      width:100%;
+      text-align: center;
+     }
+     .element1{
+      display: none;
+     }
+     .element2{
+      display: none;
+     }
+     .element3{
+      display: none;
+     }
+     .heading-1{
+      font-size: 3rem;
+     }
+     .heading-2{
+      font-size: 2rem;
+     }
+
+  }

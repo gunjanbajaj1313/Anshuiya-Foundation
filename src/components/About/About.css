@@ -1,0 +1,50 @@
+.about-container{
+  display: flex;
+  align-items:center;
+  height:90vh;
+  width: 95%;
+  margin: auto;
+  
+}
+.about-left{
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 40px;
+    
+}
+.about-right{   
+    width: 50%;
+    
+}
+.about1-img{
+    position: relative;
+    top: 245px;
+    right: 80px;
+    
+}
+.about1-img img{
+    width: 200px;
+}
+p{
+    font-size: .90rem;
+    font-weight: 600;
+    color: gray;
+}
+.about-button{
+    position: relative;
+    width: 212px;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    top:50px;
+    right: 200px;
+    
+}
+@media only screen and (max-width: 600px){
+    .about-container{
+        flex-direction: column;
+    }
+    .about-img img{
+       width: 200px;
+    }
+}

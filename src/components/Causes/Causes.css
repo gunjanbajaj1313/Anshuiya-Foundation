@@ -1,0 +1,33 @@
+.causes-cards{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.causes-container{
+    position: relative;
+    top: 100px;
+    background-color: rgb(239, 245, 248);
+    padding-top: 80px;
+}
+.cause-button{
+    position: relative;
+    width: 212px;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    right: 100px;
+    
+}
+.title{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.718);
+    text-align: left;
+}
+.text{
+    font-size:1.2rem;
+    text-align: left;
+}

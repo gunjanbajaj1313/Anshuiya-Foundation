@@ -1,0 +1,26 @@
+.items{
+    position: relative;
+    font-size: 20px;    
+    top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.item:hover{
+    color: #E03C33;
+}
+.item:active{
+    color: #E03C33;
+}
+.my-btn{
+    position: relative;
+    padding: 0px 10px;
+    width: 212px;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    left: 50px;
+    bottom: 10px;
+}
+
+
